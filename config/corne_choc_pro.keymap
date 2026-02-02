@@ -21,16 +21,16 @@
             display-name = "Default MacOS";
 
             // -----------------------------------------------------------------------------
-            // |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U  |  I  |  O  |  P  |
-            // |  A  |  S  |  D  |  F  |  G  |  LALT |  RALT |  H  |  J  |  K  |  L  |  '  |
-            // |  Z  |  X  |  C  |  V  |  B  |               |  N  |  M  |  ,  |  .  |  -  |
-            //             | GUI | LWR | SPC |               | ENT | RSE | ALT |
+            // |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP     |  Y  |  U  |  I  |  O  |  P  |
+            // |  A  |  S  |  D  |  F  |  G  |  LALT |  Unlock |  H  |  J  |  K  |  L  |  '  |
+            // |  Z  |  X  |  C  |  V  |  B  |                 |  N  |  M  |  ,  |  .  |  -  |
+            //             | GUI | LWR | SPC |                 | ENT | RSE | ALT |
 
             bindings = <
             &kp Q  &kp W  &kp E     &kp R      &kp T  &kp C_MUTE  &kp C_PP        &kp Y    &kp U  &kp I      &kp O    &kp P   
             &kp A  &kp S  &kp D     &kp F      &kp G  &kp C_MUTE  &studio_unlock  &kp H    &kp J  &kp K      &kp L    &kp SEMI
             &kp Z  &kp X  &kp C     &kp V      &kp B                              &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                          &mo 1  &kp SPACE  &kp SPACE                              &kp RET  &mo 2  &kp RALT
+                          &mo 1  &kp SPACE  &kp SPACE                             &kp RET  &mo 2  &kp RALT
             >;
         };
 
@@ -57,7 +57,7 @@
             // | TRA |  TRA   | ArrowU | TRA    | TRA |  TRA |  TRA | TRA |  7  |  8  |  9  | TRA |
             // | TRA | ArrowL | ArrowD | ArrowR | TRA |  TRA |  TRA | TRA |  4  |  5  |  6  | TRA |
             // | TRA |  TRA   | TRA    | TRA    | TRA |             | TRA |  1  |  2  |  3  |  0  |
-            //                      | TRA | TRA | TRA |             | TRA | TRA | TRA |
+            //                | TRA    | TRA    | TRA |             | TRA | TRA | TRA |
 
             bindings = <
             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
