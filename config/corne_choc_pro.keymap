@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
- *
  * SPDX-License-Identifier: MIT
+ *
+ * Personal Configuration: Hatakez
  */
 
-#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -20,27 +20,25 @@
         default_layer {
             display-name = "Default MacOS";
 
-            // -----------------------------------------------------------------------------
-            // |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP     |  Y  |  U  |  I  |  O  |  P  |
-            // |  A  |  S  |  D  |  F  |  G  |  LALT |  Unlock |  H  |  J  |  K  |  L  |  '  |
-            // |  Z  |  X  |  C  |  V  |  B  |                 |  N  |  M  |  ,  |  .  |  -  |
-            //             | GUI | LWR | SPC |                 | ENT | RSE | ALT |
-
             bindings = <
-            &kp Q  &kp W  &kp E     &kp R      &kp T  &kp C_MUTE  &kp C_PP        &kp Y    &kp U  &kp I      &kp O    &kp P   
-            &kp A  &kp S  &kp D     &kp F      &kp G  &kp C_MUTE  &studio_unlock  &kp H    &kp J  &kp K      &kp L    &kp SEMI
-            &kp Z  &kp X  &kp C     &kp V      &kp B                              &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                          &mo 1  &kp SPACE  &kp SPACE                             &kp RET  &mo 2  &kp RALT
+// ╭──────────┬──────────┬──────────┬──────────┬────────┬──────────┬──────────┬────────┬──────────┬──────────┬──────────┬──────────╮
+// │     Q    │     W    │     E    │     R    │    T   │   MUTE   │ Lighting │    Y   │    U     │     I    │     O    │     P    │
+// ├──────────┼──────────┼──────────┼──────────┼────────┼──────────┼──────────┼────────┼──────────┼──────────┼──────────┼──────────┤
+// │ SHFT / A │ CTRL / S │ MOD / D  │ ALT / F  │    G   │   LALT   │  Unlock  │    H   │ ALT / J  │ MOD / K  │ CTRL / L │ SHFT / ' │
+// ├──────────┼──────────┼──────────┼──────────┼────────┼──────────┴──────────┼────────┼──────────┼──────────┼──────────┼──────────┤
+// │     Z    │     X    │     C    │     V    │    B   │                     │    N   │    M     │     ,    │     .    │     -    │
+// ╰──────────┴──────────┼──────────┼──────────┼────────┤                     ├────────┼──────────┼──────────┼──────────┴──────────╯
+//                       │ Layer 1  │  SPACE   │ SPACE  │                     │ BSPACE │  RETURN  │ Layer 1  │                               
+//                       ╰──────────┴──────────┴────────╯                     ╰────────┴──────────┴──────────╯
+&kp Q        &kp W         &kp E        &kp R        &kp T  &kp C_MUTE    &kp C_PP         &kp Y    &kp U       &kp I         &kp O        &kp P   
+&hml LSFT A  &hml LCTRL S  &hml LGUI D  &hml LALT F  &kp G  &kp C_MUTE    &studio_unlock   &kp H    &hmr LALT J &hmr LCTRL K  &hmr LGUI L  &hmr LSFT '
+&kp Z        &kp X         &kp C        &kp V        &kp B                                 &kp N    &kp M       &kp COMMA     &kp DOT      &kp MINUS
+                           &mo 1        &kp SPACE    &mo ESC                               &kp RET  &mo RET     &mo 1
             >;
         };
 
         lower_layer {
             display-name = "Symbols MacOS";
-            // ---------------------------------------------------------------------------
-            // | TRA | TRA | TRA | TRA | TRA |  TRA |  TRA | TRA | TRA | TRA | TRA | TRA |
-            // | TRA | TRA | TRA | TRA | TRA |  TRA |  TRA | TRA | TRA | TRA | TRA | TRA |
-            // | TRA | TRA | TRA | TRA | TRA |             | TRA | TRA | TRA | TRA | TRA |
-            //             | TRA | TRA | TRA |             | TRA | TRA | TRA |
 
             bindings = <
             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -52,12 +50,6 @@
 
         raise_layer {
             display-name = "Media And Numbers";
-
-            // ------------------------------------------------------------------------------------
-            // | TRA |  TRA   | ArrowU | TRA    | TRA |  TRA |  TRA | TRA |  7  |  8  |  9  | TRA |
-            // | TRA | ArrowL | ArrowD | ArrowR | TRA |  TRA |  TRA | TRA |  4  |  5  |  6  | TRA |
-            // | TRA |  TRA   | TRA    | TRA    | TRA |             | TRA |  1  |  2  |  3  |  0  |
-            //                | TRA    | TRA    | TRA |             | TRA | TRA | TRA |
 
             bindings = <
             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
