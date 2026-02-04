@@ -55,20 +55,20 @@
         symbols {
             display-name = "Symbols MacOS";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &AT     &LBRC  &RBRC  &trans  &trans
-  &trans  &trans  &trans  &trans  &TILDE  &trans  &trans  &LT     &LPAR  &RPAR  &GT     &trans
-  &trans  &trans  &trans  &trans  &DOLLAR                 &trans  &LBKT  &RBKT  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp AT  &kp LBRC   &kp RBRC  &trans  &trans
+  &trans  &trans  &trans  &trans  &kp TILDE   &trans  &trans  &kp LT  &kp LPAR   &kp RPAR  &kp GT  &trans
+  &trans  &trans  &trans  &trans  &kp DOLLAR                  &trans  &kp LBKT   &kp RBKT  &trans  &trans
+                  &trans  &trans  &trans                      &trans  &trans  &trans
             >;
         };
 
         media_and_numbers {
             display-name = "Media And Numbers";
             bindings = <
-  &trans  &trans  &UP     &trans  &C_VOL_UP  &trans  &trans  &trans  &N7  &N8  &N9  &trans
-  &trans  &LEFT   &DOWN   &RIGHT  &C_VOL_DN  &trans  &trans  &trans  &N4  &N5  &N6  &trans
-  &trans  &trans  &trans  &trans  &C_MUTE                    &trans  &N1  &N2  &N3  &N0
-                  &trans  &trans  &trans                     &trans  &trans  &trans
+  &trans  &trans    &kp UP    &trans     &kp C_VOL_UP  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp C_VOL_DN  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
+  &trans  &trans    &trans    &trans     &kp C_MUTE                    &trans  &kp N1  &kp N2  &kp N3  &kp N0
+                    &trans    &trans     &trans                        &trans  &trans  &trans
             >;
         };
 
