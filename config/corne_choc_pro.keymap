@@ -5,6 +5,10 @@
  * Personal Configuration: Hatakez
  */
 
+ // TODO:
+ // - Import the changes that has been done on the ZMK Studio so it's version controlled here
+ // - Adjust the timers for the homerow mods so there's less time required in the rollover
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
