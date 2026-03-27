@@ -19,6 +19,7 @@
     chosen { zmk,physical-layout = &five_col_layout; };
 };
 
+// Behaviors
 / {
     behaviors {
         hml: home_row_mod_left {
@@ -51,6 +52,7 @@
 #define MEDIA        2
 #define CONNECTIVITY 3
 
+// Keymaps
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -73,7 +75,7 @@
   &trans  &kp RALT(N7)  &kp LS(N6)   &kp LS(N4)      &kp LS(N3)                    &trans    &kp RALT(N8)      &kp RALT(N9)      &kp LS(N7)    &kp SQT
                         &trans       &trans          &trans                        &trans    &trans            &trans
             >;
-        }
+        };
 
         media_and_numbers {
             display-name = "MEDIA";
