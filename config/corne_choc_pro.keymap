@@ -76,7 +76,7 @@
             display-name = "SYMBOLS";
             bindings = <
   &trans  &trans    &trans       &trans  &kp MINUS  &trans  &trans  &kp BSLH  &trans  &trans  &trans  &kp LBKT
-  &trans  &kp DQT       &kp EQUAL    &trans      &trans     &trans  &trans  &kp GRV   &trans  &trans  &trans  &kp SEMI
+  &trans  &kp DQT       &kp EQUAL    &trans      &trans     &trans  &trans  &trans   &trans  &trans  &trans  &kp SEMI
   &trans  &trans        &trans       &trans      &trans                     &trans    &trans  &trans  &trans  &kp SQT
                         &trans       &trans      &trans                     &trans    &trans  &trans
 
