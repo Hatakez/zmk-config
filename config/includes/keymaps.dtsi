@@ -12,5 +12,12 @@
 #define MAC_PIPE    RA(N7)
 #define MAC_BSLSH   LS(RA(N7))
 #define MAC_FSLSH   LS(N7)
+#define MAC_TILDE   LA(RBRC)
+#define MAC_HAT     LS(RBRC)
+#define MAC_AMPS    LS(N6)
+#define MAC_EQUALS  LS(N0)
+#define MAC_COLON   LS(DOT)
+#define MAC_LT      GRAVE
+#define MAC_GT      LS(GRAVE)
 
 };
