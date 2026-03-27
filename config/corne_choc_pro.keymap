@@ -53,9 +53,6 @@
 #define MEDIA        2
 #define CONNECTIVITY 3
 
-// Key Definitions (For Layered Modifiers)
-#define MAC_LBRC LS(RA(N8))
-#define MAC_RBRC LS(RA(N9))
 
 // Keymaps
 / {
@@ -75,10 +72,10 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &kp LS(N1)    &kp LS(DOT)     &kp LS(N0)      &kp MINUS     &trans  &trans  &kp BSLH   &kp MAC_LBRC  &kp MAC_RBRC  &kp LS(BSLH)   &kp LBKT
-  &trans  &kp DQT       &kp EQUAL       &kp LA(RBRC)    &kp LS(RBRC)  &trans  &trans  &kp GRAVE  &kp LS(N8)    &kp LS(N9)    &kp LS(GRAVE)  &kp SEMI
-  &trans  &kp RA(N7)    &kp LS(N6)      &kp LS(N4)      &kp LS(N3)                    &trans     &kp RA(N8)    &kp RA(N9)    &kp LS(N7)     &kp SQT
-                        &kp RA(LS(N7))  &trans          &trans                        &trans     &trans        &kp TAB
+  &trans  &kp LS(N1)    &kp LS(DOT)     &kp LS(N0)      &kp MINUS     &trans  &trans  &kp BSLH       &kp MAC_LCURLY  &kp MAC_RCURLY  &kp LS(BSLH)   &kp LBKT
+  &trans  &kp DQT       &kp EQUAL       &kp LA(RBRC)    &kp LS(RBRC)  &trans  &trans  &kp GRAVE      &kp MAC_LBRKT   &kp MAC_RBRKT   &kp LS(GRAVE)  &kp SEMI
+  &trans  &kp MAC_PIPE  &kp LS(N6)      &kp LS(N4)      &kp LS(N3)                    &kp MAC_BSLSH  &kp MAC_LSQBKT  &kp MAC_RSQBKT  &kp MAC_FSLSH  &kp SQT
+                        &kp RA(LS(N7))  &trans          &trans                        &trans         &trans          &kp TAB
 
   /* &trans  &kp LS(N1)    &kp LS(DOT)  &kp LS(N0)      &kp MINUS     &trans  &trans  &kp BSLH  &kp MAC_LBRC  &kp MAC_RBRC  &kp LS(BSLH)  &kp LBKT   */
   /* &trans  &kp DQT       &kp EQUAL    &kp LALT(RBRC)  &kp LS(RBRC)  &trans  &trans  &kp GRV   &kp LS(N8)    &kp LS(N9)    &kp LS(GRV)   &kp SEMI */

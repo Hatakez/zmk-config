@@ -1,0 +1,16 @@
+/ {
+
+// Key Definitions (For Layered Modifiers)
+
+// MacOS Keybinds
+#define MAC_LCURLY  LS(RA(N8))
+#define MAC_RCURLY  LS(RA(N9))
+#define MAC_LBRKT   LS(N8)
+#define MAC_RBRKT   LS(N9)
+#define MAC_LSQBKT  RA(N8)
+#define MAC_RSQBKT  RA(N9)
+#define MAC_PIPE    RA(N7)
+#define MAC_BSLSH   LS(RA(N7))
+#define MAC_FSLSH   LS(N7)
+
+}
