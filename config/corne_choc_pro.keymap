@@ -75,7 +75,7 @@
             display-name = "SYMBOLS";
             bindings = <
   &trans  &kp LS(N1)    &kp LS(DOT)  &kp LS(N0)      &kp MINUS     &trans  &trans  &kp BSLH  &kp MAC_LBRC  &kp MAC_RBRC  &kp LS(BSLH)  &kp LBKT  
-  &trans  &kp DQT       &kp EQUAL    &kp LA(RBRC)    &kp LS(RBRC)  &trans  &trans  &kp GRV   &kp LS(N8)    &kp LS(N9)    &kp LS(GRV)   &kp SEMI
+  &trans  &kp DQT       &kp EQUAL    &trans    &trans  &trans  &trans  &kp GRV   &kp LS(N8)    &kp LS(N9)    &kp LS(GRV)   &kp SEMI
   &trans  &kp RA(N7)    &kp LS(N6)   &kp LS(N4)      &kp LS(N3)                    &trans    &kp RA(N8)    &kp RA(N9)    &kp LS(N7)    &kp SQT
                         &trans       &trans          &trans                        &trans    &trans        &trans
             >;
