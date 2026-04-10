@@ -65,20 +65,20 @@
         default_macos {
             display-name = "BASE";
             bindings = <
-  &kp Q              &kp W         &kp E        &kp R        &kp T         &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I         &kp O        &kp P
-  &hml LSHIFT A      &hml LCTRL S  &hml LGUI D  &hml LALT F  &kp G         &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LCTRL K  &hmr LGUI L  &hmr RSHIFT SINGLE_QUOTE
-  &kp Z              &kp X         &kp C        &kp V        &kp B                                           &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
-                                   &mo SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                                &kp BACKSPACE  &kp RET      &mo SYMBOLS
+  &kp Q          &kp W         &kp E        &kp R        &kp T  &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I         &kp O        &kp P
+  &hml LSHIFT A  &hml LCTRL S  &hml LGUI D  &hml LALT F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LCTRL K  &hmr LGUI L  &hmr RSHIFT SINGLE_QUOTE
+  &kp Z          &kp X         &kp C        &kp V        &kp B                                    &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
+                               &mo SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                         &kp BACKSPACE  &kp RET      &mo SYMBOLS
             >;
         };
 
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &kp EXCL      &kp MAC_COLON   &kp MAC_EQUALS  &kp MINUS    &trans  &trans  &kp BSLH       &kp MAC_LCURLY  &kp MAC_RCURLY  &kp LS(BSLH)   &kp LBKT
-  &trans  &kp DQT       &kp EQUAL       &kp MAC_TILDE   &kp MAC_HAT  &trans  &trans  &kp MAC_LT     &kp MAC_LBRKT   &kp MAC_RBRKT   &kp MAC_GT     &kp SEMI
-  &trans  &kp MAC_PIPE  &kp MAC_AMPS    &kp DOLLAR      &kp HASH                     &kp MAC_BSLSH  &kp MAC_LSQBKT  &kp MAC_RSQBKT  &kp MAC_FSLSH  &kp SQT
-                        &trans          &trans          &trans                       &trans         &trans          &kp TAB
+  &kp MAC_HAT  &kp EXCL      &kp MAC_COLON   &kp MAC_EQUALS  &kp MINUS    &trans  &trans  &kp BSLH       &kp MAC_LCURLY  &kp MAC_RCURLY  &kp LS(BSLH)   &kp LBKT
+  &trans       &kp DQT       &kp EQUAL       &kp MAC_TILDE   &kp PERCENT  &trans  &trans  &kp MAC_LT     &kp MAC_LBRKT   &kp MAC_RBRKT   &kp MAC_GT     &kp SEMI
+  &trans       &kp MAC_PIPE  &kp MAC_AMPS    &kp DOLLAR      &kp HASH                     &kp MAC_BSLSH  &kp MAC_LSQBKT  &kp MAC_RSQBKT  &kp MAC_FSLSH  &kp SQT
+                             &trans          &trans          &trans                       &trans         &trans          &kp TAB
             >;
         };
 
