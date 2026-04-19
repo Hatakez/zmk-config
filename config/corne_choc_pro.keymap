@@ -51,10 +51,12 @@
 };
 
 // Layers
-#define BASE         0
-#define SYMBOLS      1
-#define MEDIA        2
-#define CONNECTIVITY 3
+#define MACOS        0
+#define LINUX        1
+#define M_SYMBOLS    2
+#define L_SYMBOLS    3
+#define MEDIA        4
+#define CONNECTIVITY 5
 
 
 // Keymaps
@@ -63,17 +65,37 @@
         compatible = "zmk,keymap";
 
         default_macos {
-            display-name = "BASE";
+            display-name = "MACOS";
             bindings = <
-  &kp Q          &kp W         &kp E        &kp R        &kp T  &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I         &kp O        &kp P
-  &hml LSHIFT A  &hml LCTRL S  &hml LGUI D  &hml LALT F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LCTRL K  &hmr LGUI L  &hmr RSHIFT SINGLE_QUOTE
-  &kp Z          &kp X         &kp C        &kp V        &kp B                                    &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
-                               &mo SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                         &kp BACKSPACE  &kp RET      &mo SYMBOLS
+  &kp Q          &kp W         &kp E          &kp R        &kp T  &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I         &kp O        &kp P
+  &hml LSHIFT A  &hml LCTRL S  &hml LGUI D    &hml LALT F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LCTRL K  &hmr LGUI L  &hmr RSHIFT SINGLE_QUOTE
+  &kp Z          &kp X         &kp C          &kp V        &kp B                                    &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
+                               &mo M_SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                         &kp BACKSPACE  &kp RET      &mo M_SYMBOLS
             >;
         };
 
-        symbols {
-            display-name = "SYMBOLS";
+        default_linux {
+            display-name = "LINUX";
+            bindings = <
+  &kp Q          &kp W         &kp E          &kp R        &kp T  &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I         &kp O        &kp P
+  &hml LSHIFT A  &hml LCTRL S  &hml LGUI D    &hml LALT F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LCTRL K  &hmr LGUI L  &hmr RSHIFT SINGLE_QUOTE
+  &kp Z          &kp X         &kp C          &kp V        &kp B                                    &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
+                               &mo L_SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                         &kp BACKSPACE  &kp RET      &mo L_SYMBOLS
+            >;
+        };
+
+        symbols_macos {
+            display-name = "M_SYMBOLS";
+            bindings = <
+  &kp MAC_HAT  &kp EXCL      &kp MAC_COLON   &kp MAC_EQUALS  &kp MINUS    &trans  &trans  &kp BSLH       &kp MAC_LCURLY  &kp MAC_RCURLY  &kp LS(BSLH)   &kp LBKT
+  &trans       &kp DQT       &kp EQUAL       &kp MAC_TILDE   &kp PERCENT  &trans  &trans  &kp MAC_LT     &kp MAC_LBRKT   &kp MAC_RBRKT   &kp MAC_GT     &kp SEMI
+  &trans       &kp MAC_PIPE  &kp MAC_AMPS    &kp DOLLAR      &kp HASH                     &kp MAC_BSLSH  &kp MAC_LSQBKT  &kp MAC_RSQBKT  &kp MAC_FSLSH  &kp SQT
+                             &trans          &trans          &trans                       &trans         &trans          &kp TAB
+            >;
+        };
+
+        symbols_linux {
+            display-name = "L_SYMBOLS";
             bindings = <
   &kp MAC_HAT  &kp EXCL      &kp MAC_COLON   &kp MAC_EQUALS  &kp MINUS    &trans  &trans  &kp BSLH       &kp MAC_LCURLY  &kp MAC_RCURLY  &kp LS(BSLH)   &kp LBKT
   &trans       &kp DQT       &kp EQUAL       &kp MAC_TILDE   &kp PERCENT  &trans  &trans  &kp MAC_LT     &kp MAC_LBRKT   &kp MAC_RBRKT   &kp MAC_GT     &kp SEMI
@@ -95,7 +117,7 @@
         connectivity {
             display-name = "CONNECTIVITY";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to MACOS     &to LINUX     &trans        &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
   &trans  &trans  &trans  &trans  &trans                  &trans  &bt BT_NXT    &bt BT_PRV    &trans        &trans
                   &trans  &trans  &trans                  &trans  &trans        &trans
