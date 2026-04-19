@@ -78,7 +78,7 @@
             display-name = "LINUX_BASE";
             bindings = <
   &kp Q          &kp W         &kp E              &kp R        &kp T  &kp C_MUTE        &kp C_PP        &kp Y          &kp U        &kp I        &kp O         &kp P
-  &hml LSHIFT A  &hml LCTRL S  &hml LALT D        &hml LGUI F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr LALT J  &hmr LGUI K  &hmr LCTRL L  &hmr RSHIFT LINUX_SQT
+  &hml LSHIFT A  &hml LCTRL S  &hml LALT D        &hml LGUI F  &kp G  &mo CONNECTIVITY  &studio_unlock  &kp H          &hmr RALT J  &hmr RGUI K  &hmr RCTRL L  &hmr RSHIFT LINUX_SQT
   &kp Z          &kp X         &kp C              &kp V        &kp B                                    &kp N          &kp M        &kp COMMA    &kp DOT       &kp MINUS
                                &mo LINUX_SYMBOLS  &kp SPACE    &lt MEDIA ESCAPE                         &kp BACKSPACE  &kp RET      &mo LINUX_SYMBOLS
             >;
