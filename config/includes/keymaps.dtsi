@@ -17,7 +17,19 @@
 #define MAC_AMPS    LS(N6)
 #define MAC_EQUALS  LS(N0)
 #define MAC_COLON   LS(DOT)
+#define MAC_SQT     SINGLE_QUOTE
 #define MAC_LT      GRAVE
 #define MAC_GT      LS(GRAVE)
+#define MAC_PLUS    MINUS
+
+// Linux Keybinds
+#define LINUX_AMPS    LS(N6)
+#define LINUX_LBRKT   LS(N8)
+#define LINUX_RBRKT   LS(N9)
+#define LINUX_LSQBKT  RA(N8)
+#define LINUX_RSQBKT  RA(N9)
+#define LINUX_PLUS    MINUS
+#define LINUX_SQT     BSLH
+#define LINUX_HAT     PERCENT
 
 };
