@@ -117,7 +117,7 @@
         connectivity {
             display-name = "CONNECTIVITY";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to MAC_BASE  &to LINUX_BASE  &trans        &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans        &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &trans
   &trans  &trans  &trans  &trans  &trans                  &trans  &bt BT_NXT    &bt BT_PRV      &trans        &trans
                   &trans  &trans  &trans                  &trans  &trans        &trans
