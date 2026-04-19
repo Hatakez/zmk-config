@@ -17,7 +17,7 @@
 #define MAC_AMPS    LS(N6)
 #define MAC_EQUALS  LS(N0)
 #define MAC_COLON   LS(DOT)
-#define MAC_SQT     SINGE_QUOTE
+#define MAC_SQT     SINGLE_QUOTE
 #define MAC_LT      GRAVE
 #define MAC_GT      LS(GRAVE)
 #define MAC_PLUS    MINUS
