@@ -21,6 +21,7 @@
 #define MAC_LT      GRAVE
 #define MAC_GT      LS(GRAVE)
 #define MAC_PLUS    MINUS
+#define MAC_PERCENT LS(N5)
 
 // Linux Keybinds
 #define LINUX_AMPS    LS(N6)
