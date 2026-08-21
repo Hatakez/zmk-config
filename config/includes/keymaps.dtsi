@@ -11,4 +11,5 @@
 #define L_PLUS    MINUS
 #define L_SQT     BSLH
 #define L_HAT     PERCENT
+#define L_BCKTCK  LS(BSLH) // Try NUBS instead of BSLH if it doesn't work
 };
