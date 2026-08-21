@@ -14,6 +14,7 @@
 #define L_LT      SQT
 #define L_GT      LS(SQT)
 #define L_SQT     LS(BSLH)
+#define L_BCKTCK  BSLH
 #define L_DOLLAR  LS(N4)
 #define L_HAT     PERCENT
 #define L_COLON   LS(DOT)
