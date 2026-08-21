@@ -11,11 +11,11 @@
 #define L_LCURLY  PIPE
 #define L_RCURLY  LS(RA(N9))
 #define L_PLUS    MINUS
-#define L_SQT     BSLH
+#define L_LT      SQT
+#define L_GT      LS(SQT)
+#define L_SQT     LS(BSLH)
 #define L_DOLLAR  LS(N4)
 #define L_HAT     PERCENT
-#define L_BCKTCK  BSLH
-#define L_BSLH    LS(BSLH)
 #define L_COLON   LS(DOT)
 #define L_SCOLON  LS(COMMA)
 #define L_EQUAL   LS(N0)
