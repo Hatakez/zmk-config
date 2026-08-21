@@ -75,9 +75,9 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &kp EXCL  &kp L_COLON   &kp L_EQUAL   &kp PLUS   &trans  &trans  &kp BSLH  &kp L_LCURLY  &kp L_RCURLY  &trans  &trans
+  &trans  &kp EXCL  &kp L_COLON   &kp L_EQUAL   &kp PLUS   &trans  &trans  &kp BSLH  &kp L_LCURLY  &kp L_RCURLY  &trans    &trans
   &trans  &kp DQT   &kp L_BCKTCK  &kp L_CARET   &kp TILDE  &trans  &trans  &kp L_LT  &kp L_LSQBKT  &kp L_RSQBKT  &kp L_GT  &trans
-  &trans  &kp PIPE  &kp L_AMPS    &kp L_DOLLAR  &trans                     &trans    &kp L_LBRKT   &kp L_RBRKT   &trans  &trans
+  &trans  &kp PIPE  &kp L_AMPS    &kp L_DOLLAR  &trans                     &trans    &kp L_LBRKT   &kp L_RBRKT   &trans    &trans
                     &trans        &trans        &trans                     &trans    &trans        &kp TAB
             >;
         };
