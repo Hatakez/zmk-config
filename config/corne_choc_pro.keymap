@@ -75,10 +75,10 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans                  &trans  &trans  &kp TAB
+  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &kp PIPE  &kp L_AMPS  &kp DLLR  &trans                  &trans  &trans  &trans  &trans  &trans
+                    &trans      &trans    &trans                  &trans  &trans  &kp TAB
             >;
         };
 

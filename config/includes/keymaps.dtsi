@@ -3,12 +3,12 @@
 // Key Definitions (For Layered Modifiers)
 
 // Linux Keybinds
-#define LINUX_AMPS    LS(N6)
-#define LINUX_LBRKT   LS(N8)
-#define LINUX_RBRKT   LS(N9)
-#define LINUX_LSQBKT  RA(N8)
-#define LINUX_RSQBKT  RA(N9)
-#define LINUX_PLUS    MINUS
-#define LINUX_SQT     BSLH
-#define LINUX_HAT     PERCENT
+#define L_AMPS    LS(N6)
+#define L_LBRKT   LS(N8)
+#define L_RBRKT   LS(N9)
+#define L_LSQBKT  RA(N8)
+#define L_RSQBKT  RA(N9)
+#define L_PLUS    MINUS
+#define L_SQT     BSLH
+#define L_HAT     PERCENT
 };
