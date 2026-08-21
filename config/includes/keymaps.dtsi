@@ -2,27 +2,6 @@
 
 // Key Definitions (For Layered Modifiers)
 
-// MacOS Keybinds
-#define MAC_LCURLY  LS(RA(N8))
-#define MAC_RCURLY  LS(RA(N9))
-#define MAC_LBRKT   LS(N8)
-#define MAC_RBRKT   LS(N9)
-#define MAC_LSQBKT  RA(N8)
-#define MAC_RSQBKT  RA(N9)
-#define MAC_PIPE    RA(N7)
-#define MAC_BSLSH   LS(RA(N7))
-#define MAC_FSLSH   LS(N7)
-#define MAC_TILDE   LA(RBRC)
-#define MAC_HAT     LS(RBRC)
-#define MAC_AMPS    LS(N6)
-#define MAC_EQUALS  LS(N0)
-#define MAC_COLON   LS(DOT)
-#define MAC_SQT     SINGLE_QUOTE
-#define MAC_LT      GRAVE
-#define MAC_GT      LS(GRAVE)
-#define MAC_PLUS    MINUS
-#define MAC_PERCENT LS(N5)
-
 // Linux Keybinds
 #define LINUX_AMPS    LS(N6)
 #define LINUX_LBRKT   LS(N8)
@@ -32,5 +11,4 @@
 #define LINUX_PLUS    MINUS
 #define LINUX_SQT     BSLH
 #define LINUX_HAT     PERCENT
-
 };
