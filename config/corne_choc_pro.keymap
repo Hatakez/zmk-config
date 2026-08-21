@@ -75,17 +75,17 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &kp EXCL  &kp L_COLON   &kp L_EQUAL  &kp PLUS   &trans  &trans  &trans  &kp L_LCURLY  &kp L_RCURLY  &trans  &trans
-  &trans  &kp DQT   &kp L_BCKTCK  &kp CARET    &kp TILDE  &trans  &trans  &trans  &kp L_LSQBKT  &kp L_RSQBKT        &trans  &trans
-  &trans  &kp PIPE  &kp L_AMPS    &kp DLLR     &trans                     &trans  &kp L_LBRKT   &kp L_RBRKT   &trans  &trans
-                    &trans        &trans       &trans                     &trans  &trans        &kp TAB
+  &trans  &kp EXCL  &kp L_COLON   &kp L_EQUAL   &kp PLUS   &trans  &trans  &kp L_BSLH  &kp L_LCURLY  &kp L_RCURLY  &trans  &trans
+  &trans  &kp DQT   &kp L_BCKTCK  &kp L_CARET   &kp TILDE  &trans  &trans  &trans      &kp L_LSQBKT  &kp L_RSQBKT        &trans  &trans
+  &trans  &kp PIPE  &kp L_AMPS    &kp L_DOLLAR  &trans                     &trans      &kp L_LBRKT   &kp L_RBRKT   &trans  &trans
+                    &trans        &trans        &trans                     &trans      &trans        &kp TAB
             >;
         };
 
         media {
             display-name = "MEDIA";
             bindings = <
-  &trans  &kp C_PREV  &kp UP    &kp C_NEXT  &kp C_VOL_UP  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+  &trans  &kp C_PREV  rkp UP    &kp C_NEXT  &kp C_VOL_UP  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
   &trans  &kp LEFT    &kp DOWN  &kp RIGHT   &kp C_VOL_DN  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
   &trans  &trans      &kp C_PP  &trans      &kp C_MUTE                    &trans  &kp N1  &kp N2  &kp N3  &kp N0
                       &trans    &trans      &trans                        &trans  &trans  &trans
