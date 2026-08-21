@@ -75,10 +75,10 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-  &trans  &trans    &trans        &trans     &trans     &trans  &trans  &trans  &kp L_LCURLY  &kp L_RCURLY  &trans  &trans
-  &trans  &kp DQT   &kp L_BCKTCK  &kp CARET  &kp TILDE  &trans  &trans  &trans  &kp L_LSQBKT  &kp L_RSQBKT        &trans  &trans
-  &trans  &kp PIPE  &kp L_AMPS    &kp DLLR   &trans                     &trans  &kp L_LBRKT   &kp L_RBRKT   &trans  &trans
-                    &trans        &trans     &trans                     &trans  &trans        &kp TAB
+  &trans  &kp EXCL  &kp L_COLON   &kp L_EQUAL  &kp PLUS   &trans  &trans  &trans  &kp L_LCURLY  &kp L_RCURLY  &trans  &trans
+  &trans  &kp DQT   &kp L_BCKTCK  &kp CARET    &kp TILDE  &trans  &trans  &trans  &kp L_LSQBKT  &kp L_RSQBKT        &trans  &trans
+  &trans  &kp PIPE  &kp L_AMPS    &kp DLLR     &trans                     &trans  &kp L_LBRKT   &kp L_RBRKT   &trans  &trans
+                    &trans        &trans       &trans                     &trans  &trans        &kp TAB
             >;
         };
 

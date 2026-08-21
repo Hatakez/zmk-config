@@ -14,4 +14,7 @@
 #define L_SQT     BSLH
 #define L_HAT     PERCENT
 #define L_BCKTCK  LS(BSLH) // Try NUBS instead of BSLH if it doesn't work
+#define L_COLON   LS(DOT)
+#define L_SCOLON  LS(COMMA)
+#define L_EQUAL   LS(N0)
 };
