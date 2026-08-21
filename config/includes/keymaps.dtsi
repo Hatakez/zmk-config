@@ -8,6 +8,8 @@
 #define L_RBRKT   LS(N9)
 #define L_LSQBKT  RA(N8)
 #define L_RSQBKT  RA(N9)
+#define L_LCURLY  LS(RA(N9))
+#define L_RCURLY  LS(RA(N9))
 #define L_PLUS    MINUS
 #define L_SQT     BSLH
 #define L_HAT     PERCENT
