@@ -13,9 +13,9 @@
 #include "includes/keymaps.dtsi"
 
 #define BASE 0
-#define SYMBOLS 1
+#define SYMB 1
 #define MEDIA 2
-#define CONNECTIVITY 3
+#define CONNECT 3
 
 &mt {
     flavor = "balanced";
@@ -35,20 +35,20 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-                &kp Q        &kp W        &kp E        &kp R       &kp T  &kp C_MUTE        &kp C_PP  &kp Y     &kp U    &kp I      &kp O        &kp P
-                &mt LSHFT A  &mt LCTRL S  &mt LALT D   &mt LGUI F  &kp G  &mo CONNECTIVITY  &trans    &kp H     &kp J    &kp K      &mt LCTRL L  &mt RSHFT SQT
-                &kp Z        &kp X        &kp C        &kp V       &kp B                              &kp N     &kp M    &kp COMMA  &kp DOT      &kp MINUS
-                                          &mo SYMBOLS  &kp SPACE   &lt MEDIA ESC                      &kp BSPC  &kp RET  &mo SYMBOLS
+  &kp Q        &kp W        &kp E       &kp R       &kp T  &kp C_MUTE   &kp C_PP  &kp Y     &kp U       &kp I       &kp O        &kp P
+  &mt LSHFT A  &mt LCTRL S  &mt LALT D  &mt LGUI F  &kp G  &mo CONNECT  &trans    &kp H     &mt LGUI J  &kp LALT K  &mt LCTRL L  &mt RSHFT SQT
+  &kp Z        &kp X        &kp C       &kp V       &kp B                         &kp N     &kp M       &kp COMMA   &kp DOT      &kp MINUS
+                            &mo SYMB    &kp SPACE   &lt MEDIA ESC                 &kp BSPC  &kp RET     &mo SYMB
             >;
         };
 
         symbols_layer {
-            display-name = "SYMBOLS";
+            display-name = "SYMB";
             bindings = <
-                &none      &none      &none       &none       &none &trans   &trans   &none    &none      &none       &none       &none
-                &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &none &kp LALT &kp RALT &kp CAPS &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT
-                &none      &none      &none       &none       &none                   &kp INS  &kp HOME   &kp PG_DN   &kp PG_UP   &kp END
-                                                &trans &trans &trans                  &trans &trans &trans
+  &trans  &kp EXCL  &kp L_CLN   &kp L_EQ  &kp PLUS   &trans  &trans  &kp BSLH  &kp L_LCRL  &kp L_RCRL  &trans    &trans
+  &trans  &kp DQT   &kp L_BTCK  &kp L_CRT   &kp TILDE  &trans  &trans  &kp L_LT  &kp L_LSQB  &kp L_RSQB  &kp L_GT  &trans
+  &trans  &kp L_LT  &kp L_AMPS    &kp L_DLLR &trans                     &trans    &kp L_LBKT   &kp L_RRKT   &trans    &trans
+                    &trans        &trans        &trans                     &trans    &trans        &kp TAB
             >;
         };
 
@@ -63,7 +63,7 @@
         };
 
         conn_layer {
-            display-name = "CONNECTIVITY";
+            display-name = "CONNECT";
             bindings = <
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
