@@ -9,6 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
+// Local import of custom keybinds
+#include "includes/keymaps.dtsi"
+
 #define BASE 0
 #define SYMBOLS 1
 #define MEDIA 2
