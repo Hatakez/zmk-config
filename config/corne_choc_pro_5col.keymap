@@ -18,31 +18,42 @@
 #define CONNECTIVITY 3
 
 // Behaviors
-/ {
-    behaviors {
-        hml: home_row_mod_left {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            require-prior-idle-ms = <120>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-on-release;
-        };
-
-        hmr: home_row_mod_right {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            require-prior-idle-ms = <120>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-on-release;
-        };
-    };
+&mt {
+  compatible = "zmk,behavior-hold-tap";
+  #binding-cells = <2>;
+  flavor = "balanced";
+  require-prior-idle-ms = <120>;
+  tapping-term-ms = <200>;
+  quick-tap-ms = <150>;
+  bindings = <&kp>, <&kp>;
+  hold-trigger-on-release;
 };
+
+/* / { */
+/*     behaviors { */
+/*         mt: home_row_mod_left { */
+/*             compatible = "zmk,behavior-hold-tap"; */
+/*             #binding-cells = <2>; */
+/*             flavor = "balanced"; */
+/*             require-prior-idle-ms = <120>; */
+/*             tapping-term-ms = <200>; */
+/*             quick-tap-ms = <150>; */
+/*             bindings = <&kp>, <&kp>; */
+/*             hold-trigger-on-release; */
+/*         }; */
+/**/
+/*         mt: home_row_mod_right { */
+/*             compatible = "zmk,behavior-hold-tap"; */
+/*             #binding-cells = <2>; */
+/*             flavor = "balanced"; */
+/*             require-prior-idle-ms = <120>; */
+/*             tapping-term-ms = <200>; */
+/*             quick-tap-ms = <150>; */
+/*             bindings = <&kp>, <&kp>; */
+/*             hold-trigger-on-release; */
+/*         }; */
+/*     }; */
+/* }; */
 
 / {
     chosen {
@@ -54,10 +65,10 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-  &kp Q          &kp W         &kp E          &kp R        &kp T  &kp C_MUTE        &kp C_PP  &kp Y          &kp U        &kp I         &kp O        &kp P
-  &hml LSHIFT A  &hml LCTRL S  &hml LALT D    &hml LGUI F  &kp G  &mo CONNECTIVITY  &trans    &kp H          &hmr LGUI J  &hmr LCTRL K  &hmr LALT L  &hmr RSHIFT SQT
-  &kp Z          &kp X         &kp C          &kp V        &kp B                              &kp N          &kp M        &kp COMMA     &kp DOT      &kp MINUS
-                               &mo SYMBOLS    &kp SPACE    &lt MEDIA ESCAPE                   &kp BACKSPACE  &kp RET      &mo SYMBOLS
+  &kp Q         &kp W        &kp E         &kp R       &kp T  &kp C_MUTE        &kp C_PP  &kp Y          &kp U       &kp I        &kp O       &kp P
+  &mt LSHIFT A  &mt LCTRL S  &mt LALT D    &mt LGUI F  &kp G  &mo CONNECTIVITY  &trans    &kp H          &mt LGUI J  &mt LCTRL K  &mt LALT L  &mt RSHIFT SQT
+  &kp Z         &kp X        &kp C         &kp V       &kp B                              &kp N          &kp M       &kp COMMA    &kp DOT     &kp MINUS
+                             &mo SYMBOLS   &kp SPACE   &lt MEDIA ESCAPE                   &kp BACKSPACE  &kp RET     &mo SYMBOLS
             >;
         };
 
