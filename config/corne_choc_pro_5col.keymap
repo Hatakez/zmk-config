@@ -45,10 +45,10 @@
         symbols_layer {
             display-name = "SYMB";
             bindings = <
-  &trans  &kp EXCL  &kp L_CLN   &kp L_EQ    &kp L_PLUS  &trans  &trans  &kp BSLH  &kp L_LCRL  &kp L_RCRL  &kp L_STAR  &kp L_NORA
-  &trans  &kp DQT   &kp L_BTCK  &kp L_HAT   &kp TILDE   &trans  &trans  &kp L_LT  &kp L_LSQB  &kp L_RSQB  &kp L_GT    &kp L_NORO
-  &trans  &kp L_LT  &kp L_AMPS  &kp L_DLLR  &kp AT                      &kp AMPS  &kp L_LBKT  &kp L_RBKT  &kp STAR      &kp L_NORAE
-                    &trans      &trans      &trans                      &trans    &trans      &kp TAB
+  &trans  &kp EXCL   &kp L_CLN   &kp L_EQ    &kp L_PLUS  &trans  &trans  &kp BSLH  &kp L_LCRL  &kp L_RCRL  &kp L_STAR  &kp L_NORA
+  &trans  &kp L_DQT  &kp L_BTCK  &kp L_HAT   &kp TILDE   &trans  &trans  &kp L_LT  &kp L_LBKT  &kp L_RBKT  &kp L_GT    &kp L_NORO
+  &trans  &kp L_LT   &kp L_AMPS  &kp L_DLLR  &kp AT                      &kp AMPS  &kp L_LSQB  &kp L_RSQB  &kp STAR    &kp L_NORAE
+                     &trans      &trans      &trans                      &trans    &trans      &kp TAB
             >;
         };
 
