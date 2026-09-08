@@ -11,10 +11,10 @@
 #define L_RCRL   RA(N0)
 #define L_PLUS   MINUS
 #define L_MINUS  FSLH
-#define L_LT     GRAVE
-#define L_GT     GT
+#define L_LT     NUBS
+#define L_GT     LS(NUBS)
 #define L_SQT    BSLH
-#define L_SLH    AMPS
+#define L_SLH    LS(N7)
 #define L_DQT    LS(N2)
 #define L_PIPE   GRAVE
 #define L_STAR   PIPE
@@ -25,8 +25,7 @@
 #define L_SCLN   LS(COMMA)
 #define L_EQ     LS(N0)
 #define L_CRT    LS(CARET)
-#define L_NORA   APOS
-#define L_NORAE  SQT
-#define L_NORO   TILDE
-
+#define L_NORA   LBKT
+#define L_NORAE  APOS
+#define L_NORO   SEMI
 };
