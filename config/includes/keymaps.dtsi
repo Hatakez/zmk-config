@@ -10,7 +10,7 @@
 #define L_LCRL   RA(N7)
 #define L_RCRL   RA(N0)
 #define L_PLUS   MINUS
-#define L_MINUS  BSLH
+#define L_MIN    FSLH
 #define L_LT     NUBS
 #define L_GT     LS(NUBS)
 #define L_SQT    BSLH
