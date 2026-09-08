@@ -1,0 +1,24 @@
+/ {
+
+// Key Definitions (For Layered Modifiers)
+
+// Linux Keybinds
+#define L_AMPS    LS(N6)
+#define L_LBRKT   LS(N8)
+#define L_RBRKT   LS(N9)
+#define L_LSQBKT  RA(N8)
+#define L_RSQBKT  RA(N9)
+#define L_LCURLY  PIPE
+#define L_RCURLY  LS(RA(N9))
+#define L_PLUS    MINUS
+#define L_LT      SQT
+#define L_GT      LS(SQT)
+#define L_SQT     LS(BSLH)
+#define L_BCKTCK  BSLH
+#define L_DOLLAR  LS(N4)
+#define L_HAT     PERCENT
+#define L_COLON   LS(DOT)
+#define L_SCOLON  LS(COMMA)
+#define L_EQUAL   LS(N0)
+#define L_CARET   LS(CARET)
+};
