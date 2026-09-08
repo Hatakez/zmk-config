@@ -19,7 +19,10 @@
 
 &mt {
     flavor = "tap-preferred";
+    require-prior-idle-ms = <120>;
     tapping-term-ms = <200>;
+    quick-tap-ms = <150>;
+    hold-trigger-on-release;
 };
 
 / {
