@@ -32,7 +32,7 @@
                 &kp Q       &kp W       &kp E        &kp R        &kp T &kp C_MUTE &kp C_PP &kp Y     &kp U        &kp I        &kp O       &kp P
                 &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G &kp LALT   &kp RALT &kp H     &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SQT
                 &kp Z       &kp X       &kp C        &kp V        &kp B                     &kp N     &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                                        &mo SYBMOLS  &kp SPACE    &lt MEDIA ESC             &kp BSPC  &kp RET      &kp SYMBOLS
+                                        &mo SYBMOLS  &kp SPACE    &lt MEDIA ESC             &kp BSPC  &kp RET      &mo SYMBOLS
             >;
         };
 
