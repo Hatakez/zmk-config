@@ -37,7 +37,7 @@
             bindings = <
   &kp Q        &kp W        &kp E       &kp R       &kp T  &kp C_MUTE   &kp C_PP        &kp Y     &kp U       &kp I       &kp O        &kp P
   &mt LSHFT A  &mt LCTRL S  &mt LALT D  &mt LGUI F  &kp G  &mo CONNECT  &kp C_BKLT_TOG  &kp H     &mt LGUI J  &mt LALT K  &mt LCTRL L  &mt RSHFT L_SQT
-  &kp Z        &kp X        &kp C       &kp V       &kp B                               &kp N     &kp M       &kp COMMA   &kp DOT      &kp SEMI
+  &kp Z        &kp X        &kp C       &kp V       &kp B                               &kp N     &kp M       &kp COMMA   &kp DOT      &kp COLON
                             &mo SYMB    &kp SPACE   &lt MEDIA ESC                       &kp BSPC  &kp RET     &mo SYMB
             >;
         };
@@ -45,10 +45,10 @@
         symbols_layer {
             display-name = "SYMB";
             bindings = <
-  &trans  &kp EXCL    &kp L_CLN   &kp L_EQ    &kp L_PLUS  &trans  &trans  &kp L_AT  &kp L_LCRL  &kp L_RCRL  &kp L_STAR  &kp L_NORA
-  &trans  &kp L_DQT   &kp L_BTCK  &kp L_HAT   &kp TILDE   &trans  &trans  &kp L_LT  &kp L_LBKT  &kp L_RBKT  &kp L_GT    &kp L_NORO
-  &trans  &kp L_PIPE  &kp L_AMPS  &kp L_DLLR  &kp L_HASH                  &kp RBKT  &kp L_LSQB  &kp L_RSQB  &kp L_SLH   &kp L_NORAE
-                      &trans      &trans      &trans                      &trans    &trans      &kp TAB
+  &trans  &kp EXCL    &kp L_CLN   &kp L_EQ    &kp L_PLUS  &trans  &trans  &kp L_AT   &kp L_LCRL  &kp L_RCRL  &kp L_STAR  &kp L_NORA
+  &trans  &kp L_DQT   &kp L_BTCK  &kp L_HAT   &kp L_TIL   &trans  &trans  &kp L_LT   &kp L_LBKT  &kp L_RBKT  &kp L_GT    &kp L_NORO
+  &trans  &kp L_PIPE  &kp L_AMPS  &kp L_DLLR  &kp L_HASH                  &kp L_CRT  &kp L_LSQB  &kp L_RSQB  &kp L_SLH   &kp L_NORAE
+                      &trans      &trans      &trans                      &trans     &trans      &kp TAB
             >;
         };
 
