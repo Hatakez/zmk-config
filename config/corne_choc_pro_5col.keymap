@@ -13,12 +13,9 @@
 #include "includes/keymaps.dtsi"
 
 #define BASE 0
-#define NAV 1
+#define SYMBOLS 1
 #define MEDIA 2
-#define NUM 3
-#define SYM 4
-#define FUN 5
-#define ADJUST 6
+#define CONNECTIVITY 3
 
 // Behaviors
 / {
