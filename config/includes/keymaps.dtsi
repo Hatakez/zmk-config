@@ -1,21 +1,25 @@
 / {
 // Custom Keybinds
-#define L_AMPS  LS(N6)
-#define L_LBKT  LS(N8)
-#define L_RBKT  LS(N9)
-#define L_LSQB  RA(N8)
-#define L_RSQB  RA(N9)
-#define L_LCRL  PIPE
-#define L_RCRL  LS(RA(N9))
-#define L_PLUS  MINUS
-#define L_LT    SQT
-#define L_GT    LS(SQT)
-#define L_SQT   LS(BSLH)
-#define L_BTCK  BSLH
-#define L_DLLR  LS(N4)
-#define L_HAT   PERCENT
-#define L_CLN   LS(DOT)
-#define L_SCLN  LS(COMMA)
-#define L_EQ    LS(N0)
-#define L_CRT   LS(CARET)
+#define L_AMPS   LS(N6)
+#define L_LBKT   LS(N8)
+#define L_RBKT   LS(N9)
+#define L_LSQB   RA(N8)
+#define L_RSQB   RA(N9)
+#define L_LCRL   PIPE
+#define L_RCRL   LS(RA(N9))
+#define L_PLUS   MINUS
+#define L_LT     SQT
+#define L_GT     LS(SQT)
+#define L_SQT    BSLH
+#define L_STAR   LS(BSLH)
+#define L_BTCK   PLUS
+#define L_DLLR   LS(N4)
+#define L_HAT    PERCENT
+#define L_CLN    LS(DOT)
+#define L_SCLN   LS(COMMA)
+#define L_EQ     LS(N0)
+#define L_CRT    LS(CARET)
+#define L_NORA   
+#define L_NORAE  SQT
+#define L_NORO   
 };
