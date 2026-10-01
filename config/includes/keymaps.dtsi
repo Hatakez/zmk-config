@@ -25,7 +25,7 @@
 #define L_CLN    LS(DOT)
 #define L_SCLN   LS(COMMA)
 #define L_EQ     LS(N0)
-#define L_BSLH   EQUALS
+#define L_BSLH   EQUAL
 #define L_NORA   LBKT
 #define L_NORAE  APOS
 #define L_NORO   SEMI
